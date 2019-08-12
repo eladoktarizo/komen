@@ -1,0 +1,157 @@
+html, body {
+  background: url(../../../images/urban.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0;
+	margin: 0;
+	color: #404040;
+}
+
+a { color: #141478; text-decoration: none; }
+a:hover { color: #0099ff; }
+
+#page {
+	width: 90%;
+	margin: 0 auto;
+	background-color: #FFF;
+	margin-bottom: 0px;
+}
+
+h1, h2 {
+	font-family: 'IM Fell DW Pica SC', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 35px;
+
+}
+.highlight {
+	font-size: 50px;
+	color: #0099ff;
+}
+h1, h2 {
+	color: #333;
+	text-align: center;	
+}
+h2{
+	text-align: right;
+	/*padding: 10px 0px;*/
+}
+
+.bar {
+	background-color: #111;
+	color: #f0f0f0;
+	box-shadow: 0px 0px 2px #333;
+	line-height: 25px;
+	padding: 0px 20px;
+}
+.bar a {
+	color: #DDD;
+}
+.bar a:hover {
+	color: #FFFFFF;
+}
+
+.ticker {
+ 
+	height: 40px;
+	overflow: hidden;
+	/*border: 1px solid #DDD;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*border-radius: 5px;*/
+	box-shadow:0px 0px 15px 1px #BBB;
+}
+.ticker2 {
+ 
+	height: 40px;
+	overflow: scroll;
+	border: 1px solid #DDD;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*border-radius: 5px;*/
+	box-shadow:0px 0px 15px 1px #BBB;
+}
+
+#ticker_02 {
+	height: 500px;
+	background:#f1f1f1;
+	float: left;
+	width: 100%;
+}
+
+.ticker li {
+ 	border-bottom: 1px dotted #DDD;
+	padding: 10px;
+	line-height:25px;
+	margin: 0px 5px;
+	font-size:16px;
+	font-family:'IM Fell DW Pica SC', Tahoma,Helvetica, Arial, sans-serif;
+	
+}
+.ticker2 li {
+ 	border-bottom: 1px dotted #DDD;
+	padding: 10px;
+	line-height:25px;
+	margin: 0px 5px;
+	font-size:14px;
+	font-family:'IM Fell DW Pica SC', Tahoma,Helvetica, Arial, sans-serif;
+	
+}
+ 
+
+#ticker_04 {
+	height: 150px;
+}
+#ticker_04 li {
+	height: 40px;
+	overflow: hidden;
+} 
+#ticker_04 img {
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+} 
+
+#example_4 { display: none;}
+.tglna{
+font-family: arial;
+font-size: 15px;
+color: #F0C237;
+text-shadow: 1px 1px 1px #000000;
+font-weight: bold;
+margin-right:1%;
+margin-top: 45px;
+}
+.forum{
+font-family: arial;
+font-size: 30px;
+color: #062B7E;
+margin-right:1%;
+font-weight: bold;
+}
+#pala{
+width: 100%;
+ 
+background: #ffffff;
+position: relative;
+box-shadow:0px 0px 15px 1px #BBB;
+}
+.btn{
+background: #AAC5E7;
+padding: 5px;
+cursor: pointer;
+width: 150px;
+border: 1px solid #918F8F;
+color: #fff;
+}

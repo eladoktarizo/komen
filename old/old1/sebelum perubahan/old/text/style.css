@@ -1,0 +1,21 @@
+#highlights {
+    border: #ccc 1px solid;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+	font: 14px/30px 'FontAwesome',Tahoma,sans-serif;
+}
+#highlights ul{
+	width:100%;
+	
+}
+#credits {
+    border: #000 1px solid;
+    overflow: hidden;
+    width: 50%;
+    margin: 50px auto;
+}
+
+#credits ul {
+    list-style: none;
+}
