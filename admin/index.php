@@ -137,97 +137,97 @@ include "koneksi.php";
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 	<?php
-		if ($_GET['q']=='event')
+		if (isset($_GET['q'])=='event')
 		{
 			include "modul/getevent1.php";
 			include "modul/event.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='add_event')
+		if (isset($_GET['q'])=='add_event')
 		{
 			include "modul/getevent1.php";
 			include "modul/add_event.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='gantibg')
+		if (isset($_GET['q'])=='gantibg')
 		{
 			include "modul/getevent1.php";
 			include "modul/gantibg.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='bg')
+		if (isset($_GET['q'])=='bg')
 		{
 			include "modul/getevent1.php";
 			include "modul/bg.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='editevent')
+		if (isset($_GET['q'])=='editevent')
 		{
 			include "modul/getevent1.php";
 			include "modul/editevent.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='delevent')
+		if (isset($_GET['q'])=='delevent')
 		{
 			include "modul/getevent1.php";
 			include "modul/delevent.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='list_komentar')
+		if (isset($_GET['q'])=='list_komentar')
 		{
 			include "modul/getevent1.php";
 			include "modul/lst_komentar.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='history_komentar')
+		if (isset($_GET['q'])=='history_komentar')
 		{
 			include "modul/getevent1.php";
 			include "modul/history_komentar.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='ussr')
+		if (isset($_GET['q'])=='ussr')
 		{
 			include "modul/getevent1.php";
 			include "modul/user.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='add_ussr')
+		if (isset($_GET['q'])=='add_ussr')
 		{
 			include "modul/getevent1.php";
 			include "modul/add_ussr.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='edituser')
+		if (isset($_GET['q'])=='edituser')
 		{
 			include "modul/getevent1.php";
 			include "modul/edituser.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='logopu')
+		if (isset($_GET['q'])=='logopu')
 		{
 			include "modul/getevent1.php";
 			include "modul/logopu.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='add_logopu')
+		if (isset($_GET['q'])=='add_logopu')
 		{
 			include "modul/getevent1.php";
 			include "modul/add_logopu.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='logo')
+		if (isset($_GET['q'])=='logo')
 		{
 			include "modul/getevent1.php";
 			include "modul/logo.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='add_logo')
+		if (isset($_GET['q'])=='add_logo')
 		{
 			include "modul/getevent1.php";
 			include "modul/add_logo.php";
 			include "modul/getevent.php";
 		}else
-		if ($_GET['q']=='deluser')
+		if (isset($_GET['q'])=='deluser')
 		{
 			include "modul/getevent1.php";
 			include "modul/deluser.php";
